@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" href="tablogo.png">
+    <title>Swantra Bank</title>
+    <style>
+        * {
+            margin: 0px;
+        }
+
+        body {
+            background-image: url("bg.jpg");
+            background-size: 100% 100%;
+        }
+
+        .nav {
+            width: 100%;
+            height: 11%;
+            background-color: rgba(84, 26, 138, 0.89);
+        }
+
+        .navbtn {
+            cursor: pointer;
+            margin-top: 10px;
+            border: none;
+            width: 12%;
+            height: 65%;
+            float: right;
+            background: none;
+            color:rgb(6, 248, 46);
+            font-weight: bold;
+            font-size: medium;
+        }
+
+        #logo {
+            float: right;
+            margin-top: 0px;
+            margin-left: 20px;
+            background-color: blueviolet;
+        }
+
+        .about {
+            width: 48%;
+            height: 67%;
+            background-color: rgba(0, 26, 255, 0.45);
+            margin-left: 25%;
+            border-radius: 10px;
+            border: black solid 1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 1.2em;
+            padding: 10px 10px;
+        }
+
+        .btn {
+            width: 35%;
+            padding: 20px 20px;
+            border-radius: 5px;
+            border: none;
+            margin-top: 200px;
+            background-color: cyan;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="home">
+        <div class="nav">
+            <img id="logo" src="tablogo.png" height="75px" width="75px" alt="Swantra Bank">
+            <a href="#home"><button class="navbtn"><b>Swantra Bank</b></button></a>
+            <a href="view.php"><button class="navbtn"><b>View All Customer</b></button></a>
+            <a href="history.php"><button class="navbtn"><b>Transaction History</b></button></a>
+        </div>
+    </nav>
+    <br><br><br>
+    <div class="about">
+        <br>
+        <!-- &nbsp; -->
+        <center style="color: rgb(255, 251, 0);">
+            <h1>Welcome to Swantra Bank</h1>
+            <br><br>
+           <h3>We are thankful to you all for trusting on us.</h3> <br>
+            <a href="view.php"><button class="btn">View All Customer</button></a>
+        </center>
+    </div>
+</body>
+
+</html>
